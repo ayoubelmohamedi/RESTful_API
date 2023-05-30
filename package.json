@@ -4,7 +4,9 @@
   "description": "A backend project leveraging Node.js, Prisma, Typescript, and Docker.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts"
   },
   "keywords": [],
   "author": "ayoub elmohamedi",
